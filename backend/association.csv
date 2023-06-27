@@ -1,0 +1,14 @@
+
+1:1, prog_entity_id, entity_id, program_entity, business_entity
+1:N, prog_entity_id, prap_prog_entity_id, program_entity, program_apply
+1:N, prog_entity_id, batch_entity_id, program_entity, batch
+
+1:N, user_entity_id, prap_user_entity_id, users, program_apply
+
+1:N, prap_prog_entity_id, parog_prog_entity_id, program_apply, program_apply_progress
+1:N, prap_user_entity_id, parog_user_entity_id, program_apply, program_apply_progress
+
+1:N, status, prap_status, status, program_apply
+1:N, status, parog_status, status, program_apply_progress
+
+1:N, emp_entity_id, batch_pic_id, 
